@@ -37,7 +37,7 @@ const DashBoardSidebar = ({
     <Sidebar variant="inset" collapsible="icon" className="border-1 border-r">
       <SidebarHeader>
         <div className="flex items-center gap-2 px-4 py-1 justify-center">
-          <h1 className="font-bold font-mono text-xl">RunReact IDE</h1>
+          <h1 className="font-bold font-mono text-xl">RunReact <span className="text-[#2682d9]">IDE</span></h1>
         </div>
       </SidebarHeader>
       <SidebarContent>
