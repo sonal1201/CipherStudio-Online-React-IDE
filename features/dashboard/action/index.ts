@@ -18,7 +18,6 @@ export const createPlayground = async (data: {
             data: {
                 title,
                 description,
-                templete,
                 userId: user?.id!
             }
         });
