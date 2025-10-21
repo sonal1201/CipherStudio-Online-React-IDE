@@ -130,7 +130,7 @@ export default function ProjectTable({
             <TableRow
               key={project.id}
               className="hover:bg-gray-100 transition-colors duration-150 cursor-pointer"
-              onClick={() => router.push(`/reactIde/${project.id}`)}
+              onClick={() => router.push(`/react-Ide/${project.id}`)}
             >
               <TableCell className="transition duration-150">
                 <div className="flex flex-col">
