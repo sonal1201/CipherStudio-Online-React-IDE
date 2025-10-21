@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="">
-    <Button variant={'destructive'}>Click Me</Button>
+    <Button variant={'ghost'}>Click Me</Button>
     </div>
   );
 }
