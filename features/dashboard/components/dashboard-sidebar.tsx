@@ -17,8 +17,7 @@ import React, { useState } from "react";
 interface DashBoardSidebarProps {
   id: string;
   name: string;
-  icon: string;
-  starred: boolean;
+  description: string;
 }
 
 const DashBoardSidebar = ({
@@ -27,9 +26,6 @@ const DashBoardSidebar = ({
   initialPlaygroundData: DashBoardSidebarProps[];
 }) => {
   const pathname = usePathname();
-  const [star, setStar] = useState(
-    initialPlaygroundData.filter((p) => p.starred)
-  );
   const [recentPlayground, setRecentPlayGround] = useState(
     initialPlaygroundData
   );
