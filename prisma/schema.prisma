@@ -53,7 +53,7 @@ model Project {
   id          String    @id @default(cuid()) @map("_id")
   title       String
   description String
-  templete    Templates @default(REACT)
+  template    Templates @default(REACT)
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
